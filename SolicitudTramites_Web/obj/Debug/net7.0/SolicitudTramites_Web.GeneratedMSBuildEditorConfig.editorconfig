@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SolicitudTramites_Web
+build_property.RootNamespace = SolicitudTramites_Web
+build_property.ProjectDir = C:\Temp\Udemy\SolicitudTramites\SolicitudTramites_Web\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Temp\Udemy\SolicitudTramites\SolicitudTramites_Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Predios/ActualizarPredio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGlvc1xBY3R1YWxpemFyUHJlZGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Predios/CrearPredio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGlvc1xDcmVhclByZWRpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Predios/IndexPredios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGlvc1xJbmRleFByZWRpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Predios/RemoverPredio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGlvc1xSZW1vdmVyUHJlZGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Shared/_Notificacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYWNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Tramites/ActualizarTramite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbWl0ZXNcQWN0dWFsaXphclRyYW1pdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Tramites/ConsultarTramite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbWl0ZXNcQ29uc3VsdGFyVHJhbWl0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Tramites/CrearTramite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbWl0ZXNcQ3JlYXJUcmFtaXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Tramites/IndexTramites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbWl0ZXNcSW5kZXhUcmFtaXRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Tramites/RemoverTramite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbWl0ZXNcUmVtb3ZlclRyYW1pdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Usuario/AccesoDenegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBY2Nlc29EZW5lZ2Fkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Usuario/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Temp/Udemy/SolicitudTramites/SolicitudTramites_Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7x17t1izhe

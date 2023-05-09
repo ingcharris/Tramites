@@ -1,0 +1,78 @@
+﻿@model SolicitudTramites_Web.Models.ViewModel.PrediosDeleteViewModel
+
+@{
+    ViewData["Title"] = "RemoverPredio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="RemoverPredio">
+    <div class="container border p-3">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <input asp-for="Predios.PredioId" hidden />
+
+
+        <div class="row">
+            <h2 class="text-info">Remover Predio</h2>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Número del Predio</label>
+                <input asp-for="Predios.PredioId" disabled class="form-control" />
+                <span asp-validation-for="Predios.PredioId" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Número del Trámite</label>
+                <input asp-for="Predios.TramiteId" disabled class="form-control" />
+                @*<select asp-for="Predios.TramiteId" class="form-select" asp-items="@Model.TramitesList">
+                <option value="">-- Seleccione un ítem --</option>
+                </select>*@
+                <span asp-validation-for="Predios.TramiteId" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre del Predio</label>
+                <input asp-for="Predios.PredioNombre" disabled class="form-control" />
+
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Dirección del Predio</label>
+                <input asp-for="Predios.PredioDireccion" disabled class="form-control" />
+
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Departamento</label>
+                <input asp-for="Predios.PredioDepto" disabled class="form-control" />
+
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Ciudad</label>
+                <input asp-for="Predios.PredioCiudad" disabled class="form-control" />
+
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-danger">Remover</button>
+            <a asp-controller="Predios" asp-action="IndexPredios" class="btn btn-success">Regresar</a>
+        </div>
+
+    </div>
+</form>
+
+
+

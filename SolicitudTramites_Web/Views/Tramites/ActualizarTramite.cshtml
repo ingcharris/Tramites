@@ -1,0 +1,63 @@
+﻿@model SolicitudTramites_Web.Models.Dto.TramitesUpdateDto
+
+@{
+    ViewData["Title"] = "ActualizarTramite";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="ActualizarTramite">
+    <div class="container border p-3">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <input hidden asp-for="Id" />
+
+        <div class="row">
+            <h2 class="text-info">Actualizar Trámite</h2>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre del Trámite</label>
+                <input asp-for="TramiteNombre" class="form-control" />
+                <span asp-validation-for="TramiteNombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Documento del Trámite</label>
+                <input asp-for="TramiteDocAdjUrl" class="form-control" />
+                <span asp-validation-for="TramiteDocAdjUrl" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Descripción del Trámite</label>
+                <textarea asp-for="TramiteDescAdjUrl" class="form-control"></textarea>
+                <span asp-validation-for="TramiteDescAdjUrl" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Listado de Trámites</label>
+                <input asp-for="TramiteListadoAdj" class="form-control" />
+                <span asp-validation-for="TramiteListadoAdj" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-primary">Actualizar</button>
+            <a asp-controller="Tramites" asp-action="IndexTramites" class="btn btn-success">Regresar</a>
+        </div>
+
+
+    </div>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

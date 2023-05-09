@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SolicitudTramites_API.props" />
+</Project>

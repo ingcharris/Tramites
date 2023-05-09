@@ -1,0 +1,67 @@
+﻿@model SolicitudTramites_Web.Models.Dto.TramitesDto
+
+@{
+    ViewData["Title"] = "RemoverTramite";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="RemoverTramite">
+    <div class="container border p-3">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <input hidden asp-for="Id" />
+
+        <div class="row">
+            <h2 class="text-info">Remover Trámite</h2>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre del Trámite</label>
+                <input asp-for="TramiteNombre" disabled class="form-control" />               
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Documento del Trámite</label>
+                <input asp-for="TramiteDocAdjUrl" disabled class="form-control" />
+                <span asp-validation-for="TramiteDocAdjUrl" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Descripción del Trámite</label>
+                <textarea asp-for="TramiteDescAdjUrl" disabled class="form-control"></textarea>
+                <span asp-validation-for="TramiteDescAdjUrl" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Listado de Trámites</label>
+                <input asp-for="TramiteListadoAdj" disabled class="form-control" />
+                <span asp-validation-for="TramiteListadoAdj" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-danger">Remover</button>
+            <a asp-controller="Predios" asp-action="IndexPredios" class="btn btn-success">Regresar</a>
+        </div>
+
+
+    </div>
+
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+
+

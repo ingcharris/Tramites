@@ -1,0 +1,57 @@
+﻿@model IEnumerable<SolicitudTramites_Web.Models.Dto.TramitesDto>
+
+@{
+    ViewData["Title"] = "ConsultarTramite";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container border p-3">
+
+    <div class="row">
+        <h2 class="text-info">Consultar Trámite</h2>
+    </div>
+
+    @foreach (var item in Model)
+    {
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre del Trámite</label>
+                <label class="form-label">@item.Id</label>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre del Trámite</label>
+                <label class="form-label">@item.TramiteNombre</label>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Documento del Trámite</label>
+                <label class="form-label">@item.TramiteDocAdjUrl</label>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Descripción del Trámite</label>
+                <label class="form-label">@item.TramiteDescAdjUrl</label>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Listado de Trámites</label>
+                <label class="form-label">@item.TramiteListadoAdj</label>
+            </div>
+        </div>
+    }
+
+    <div class="d-grid gap-2 d-md-block mt-2">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-success">Regresar</a>
+    </div>
+
+</div>

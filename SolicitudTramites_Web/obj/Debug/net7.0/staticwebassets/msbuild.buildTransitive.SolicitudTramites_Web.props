@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SolicitudTramites_Web.props" />
+</Project>
